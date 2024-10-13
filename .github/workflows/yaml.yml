@@ -16,6 +16,5 @@ jobs:
         uses: docker/setup-buildx-action@v1
 
       - name: Build and push Docker image
-        run: |
-          cd /c/Users/smite/OneDrive/Desktop/umtc/test/node
-          docker-compose up --build -d
+        run: cd "C:\Users\smite\OneDrive\Desktop\umtc\test\node"
+            docker-compose up --build -d
