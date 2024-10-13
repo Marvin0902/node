@@ -16,7 +16,7 @@ const pool = mysql.createPool({
 
 // 簡單的 API 路由
 app.get('/', (req, res) => {
-  res.send('Hello from Node.js API with MySQLLLLYYYYXXccX7777');
+  res.send('搞定囉');
 });
 
 // 查詢資料庫的 API
