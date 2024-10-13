@@ -15,6 +15,11 @@ jobs:
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v1
 
+      - name: Pull the latest changes from main branch
+        run: |
+          cd "C:\Users\smite\OneDrive\Desktop\umtc\test\node"
+          git pull origin main  # 確保拉取 main 分支的最新變更
+
       - name: Build and push Docker image
         run: |
             cd "C:\Users\smite\OneDrive\Desktop\umtc\test\node"
